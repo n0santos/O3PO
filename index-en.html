@@ -56,13 +56,13 @@ function loadTOC(){
  $.fn.ignore = function(sel){
         return this.clone().find(sel||">*").remove().end();
  };    $(function(){
-      $("#abstract").load("sections/abstract-en,pt.html"); 
-      $("#introduction").load("sections/introduction-en,pt.html"); 
-      $("#nstable").load("sections/ns-en,pt.html"); 
-      $("#overview").load("sections/overview-en,pt.html"); 
-      $("#description").load("sections/description-en,pt.html"); 
-      $("#references").load("sections/references-en,pt.html"); 
-      $("#crossref").load("sections/crossref-en,pt.html", null, loadHash); 
+      $("#abstract").load("sections/abstract-en.html"); 
+      $("#introduction").load("sections/introduction-en.html"); 
+      $("#nstable").load("sections/ns-en.html"); 
+      $("#overview").load("sections/overview-en.html"); 
+      $("#description").load("sections/description-en.html"); 
+      $("#references").load("sections/references-en.html"); 
+      $("#crossref").load("sections/crossref-en.html", null, loadHash); 
     });
     </script> 
   </head> 
@@ -70,7 +70,7 @@ function loadTOC(){
 <body>
 <div class="container">
 <div class="head">
-<div style="float:right">language <a href="index-en,pt.html"><b>en,pt</b></a> </div>
+<div style="float:right">language <a href="index-pt.html"><b>pt</b></a> <a href="index-en.html"><b>en</b></a> </div>
 <h1>Offshore Petroleum Production Plant Ontology (O3PO)</h1>
 <h2>Release: 2023-01-15</h2>
 
@@ -100,7 +100,7 @@ function loadTOC(){
 <dd><a href="https://github.com/BDI-UFRGS/O3POntology">https://github.com/BDI-UFRGS/O3POntology</a></dd>
 </dl>
 
-<a href="provenance/provenance-en,pt.html" target="_blank">Provenance of this page</a><hr/>
+<a href="provenance/provenance-en.html" target="_blank">Provenance of this page</a><hr/>
 </div>
 <div class="status">
 <div>
