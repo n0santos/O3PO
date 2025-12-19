@@ -2,7 +2,7 @@
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix : <> .
-<..\index-en.html> a prov:Entity;
+<..\index-en,pt.html> a prov:Entity;
 	 dc:title "Offshore Petroleum Production Plant Ontology (O3PO)";
 	 prov:wasAttributedTo :agent0;
 	 prov:wasAttributedTo :agent1;

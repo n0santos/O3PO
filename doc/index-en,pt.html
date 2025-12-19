@@ -56,13 +56,13 @@ function loadTOC(){
  $.fn.ignore = function(sel){
         return this.clone().find(sel||">*").remove().end();
  };    $(function(){
-      $("#abstract").load("sections/abstract-en.html"); 
-      $("#introduction").load("sections/introduction-en.html"); 
-      $("#nstable").load("sections/ns-en.html"); 
-      $("#overview").load("sections/overview-en.html"); 
-      $("#description").load("sections/description-en.html"); 
-      $("#references").load("sections/references-en.html"); 
-      $("#crossref").load("sections/crossref-en.html", null, loadHash); 
+      $("#abstract").load("sections/abstract-en,pt.html"); 
+      $("#introduction").load("sections/introduction-en,pt.html"); 
+      $("#nstable").load("sections/ns-en,pt.html"); 
+      $("#overview").load("sections/overview-en,pt.html"); 
+      $("#description").load("sections/description-en,pt.html"); 
+      $("#references").load("sections/references-en,pt.html"); 
+      $("#crossref").load("sections/crossref-en,pt.html", null, loadHash); 
     });
     </script> 
   </head> 
@@ -70,7 +70,7 @@ function loadTOC(){
 <body>
 <div class="container">
 <div class="head">
-<div style="float:right">language <a href="index-pt.html"><b>pt</b></a> <a href="index-en.html"><b>en</b></a> </div>
+<div style="float:right">language <a href="index-en,pt.html"><b>en,pt</b></a> </div>
 <h1>Offshore Petroleum Production Plant Ontology (O3PO)</h1>
 <h2>Release: 2023-01-15</h2>
 
@@ -92,7 +92,7 @@ function loadTOC(){
 
 <dt>Download serialization:</dt><dd><span><a href="ontology.jsonld" target="_blank"><img src="https://img.shields.io/badge/Format-JSON_LD-blue.svg" alt="JSON-LD" /></a> </span><span><a href="ontology.owl" target="_blank"><img src="https://img.shields.io/badge/Format-RDF/XML-blue.svg" alt="RDF/XML" /></a> </span><span><a href="ontology.nt" target="_blank"><img src="https://img.shields.io/badge/Format-N_Triples-blue.svg" alt="N-Triples" /></a> </span><span><a href="ontology.ttl" target="_blank"><img src="https://img.shields.io/badge/Format-TTL-blue.svg" alt="TTL" /></a> </span></dd><dt>License:</dt><dd><a href="http://insertlicenseURIhere.example.org" target="_blank"><img src="https://img.shields.io/badge/License-license%20name%20goes%20here-blue.svg" alt="http://insertlicenseURIhere.example.org" /></a>
 </dd><dt>Visualization:</dt><dd><a href="webvowl/index.html#" target="_blank"><img src="https://img.shields.io/badge/Visualize_with-WebVowl-blue.svg" alt="Visualize with WebVowl" /></a></dd>
-<!-- <dt>Evaluation:</dt><dd><a href="OOPSevaluation/oopsEval.html#" target="_blank"><img src="https://img.shields.io/badge/Evaluate_with-OOPS! (OntOlogy Pitfall Scanner!)-blue.svg" alt="Evaluate with OOPS!" /></a></dd> --><dt>Cite as:</dt>
+<dt>Evaluation:</dt><dd><a href="OOPSevaluation/oopsEval.html#" target="_blank"><img src="https://img.shields.io/badge/Evaluate_with-OOPS! (OntOlogy Pitfall Scanner!)-blue.svg" alt="Evaluate with OOPS!" /></a></dd><dt>Cite as:</dt>
 <dd>Nicolau Santos. Offshore Petroleum Production Plant Ontology (O3PO). Revision: 2.0.</dd>
 <dt>Compatible with:</dt>
 <dd><a href="https://www.petwin.org/O3PO/o3po/">https://www.petwin.org/O3PO/o3po/</a></dd>
@@ -100,7 +100,7 @@ function loadTOC(){
 <dd><a href="https://github.com/BDI-UFRGS/O3POntology">https://github.com/BDI-UFRGS/O3POntology</a></dd>
 </dl>
 
-<a href="provenance/provenance-en.html" target="_blank">Provenance of this page</a><hr/>
+<a href="provenance/provenance-en,pt.html" target="_blank">Provenance of this page</a><hr/>
 </div>
 <div class="status">
 <div>
